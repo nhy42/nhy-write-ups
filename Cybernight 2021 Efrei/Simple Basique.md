@@ -1,9 +1,9 @@
 # Simple Basique
 > Crypto, 50 pts
 > 
-[Vous n'avez pas les bases](https://www.youtube.com/watch?v=2bjk26RwjyU)
+> [Vous n'avez pas les bases](https://www.youtube.com/watch?v=2bjk26RwjyU)
 >
-Auteur : Maestran
+> Auteur : Maestran
 
 D'après le titre du challenge, ça va être une histoire de base.
 

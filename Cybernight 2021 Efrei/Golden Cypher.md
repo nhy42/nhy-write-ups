@@ -2,13 +2,13 @@
 
 > Crypto, 50pts
 >
-Selon le principe de Kerckhoffs, la sécurité d'un système cryptographique ne dépend pas de la méthode de chiffrement mais de la clé elle même.
+> Selon le principe de Kerckhoffs, la sécurité d'un système cryptographique ne dépend pas de la méthode de chiffrement mais de la clé elle même.
 >
-Ainsi, si je prends un nombre infini pour clé et que je le XOR, mon secret est parfait !
+> Ainsi, si je prends un nombre infini pour clé et que je le XOR, mon secret est parfait !
 >
-Il ne me reste plus qu'à trouver un nombre infini...
+> Il ne me reste plus qu'à trouver un nombre infini...
 >
-Auteur : Maestran
+> Auteur : Maestran
 
 On a donc une image qui a été XORée avec une clé d'une longueur infinie. On a donc naturellement pensé à Pi, sqrt(2), ou encore le nombre d'or, qui rappelle étrangement le titre.
 

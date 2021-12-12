@@ -3,11 +3,11 @@
 > 
 > Ovrairahr à yn ploreavtug !
 >
-Oba pbhentr à ibhf !
+> Oba pbhentr à ibhf !
 >
-Yr synt rfg PLOA{I3el_3nfl_Pelcg0_Pu4yy}
+> Yr synt rfg PLOA{I3el_3nfl_Pelcg0_Pu4yy}
 >
-Nhgrhe : Znrfgena
+> Nhgrhe : Znrfgena
 
 Bon, Burp c'est le bruit d'un rot, donc ça doit être du ROT13, non ?
 

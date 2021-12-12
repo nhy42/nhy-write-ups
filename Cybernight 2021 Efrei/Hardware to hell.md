@@ -3,9 +3,9 @@
 >
 >Votre ami Brian s'est amusé avec des portes logiques et a décidé de vous proposer un petit défi ! Un générateur de lettre en ASCII émet le flag sur un bus 8 bit ! À vous de retrouver le mot initial écrit !
 >
-(Edit : Visiblement, le fichier se lit mal avec le lecteur de Windows. Ouvrez le avec VLC svp)
+> (Edit : Visiblement, le fichier se lit mal avec le lecteur de Windows. Ouvrez le avec VLC svp)
 >
-Auteur : Maestran
+> Auteur : Maestran
 
 Dans cette vidéo, on a un circuit sur Multisim (<3) et on doit retrouver les valeurs des bits de base, en se basant sur les afficheurs hexa.
 

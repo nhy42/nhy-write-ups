@@ -3,7 +3,7 @@
 > 
 > Mince, vous avez mis votre clé privée RSA à la machine à laver, et une partie n'est plus visible ! Réussirez vous à retrouver le secret que vous aviez chiffré ?
 >
-Auteur : Maestran
+> Auteur : Maestran
 
 Un challenge franchement super intéressant.
 On possède une clé privée à laquelle il manque quelques parcelles.

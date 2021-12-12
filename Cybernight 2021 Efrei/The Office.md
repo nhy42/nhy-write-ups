@@ -1,16 +1,17 @@
 # The Office
 > Stégano, 50 pts
 > 
-> Dwight Schrute vous a envoyé un étrange mémo. Le texte a l'air de contenir des petits symboles, peut-être un résidu de ses années en tant qu'adjoint au shériff volontaire. Trouvez le message caché dans son mémo.
+> Dwight Schrute vous a envoyé un étrange mémo. Le texte a l'air de contenir des petits symboles, peut-être un résidu de ses années en tant qu'adjoint au shériff volontaire.
+> Trouvez le message caché dans son mémo.
 > **Explication du flag**
 > Vous trouverez un texte, le flag est écrit dedans entre les mots `FLAG`. Par exemple, si vous trouvez le texte:
 > 
-*CECI EST UN TEXTE EXEMPLE FLAG CH4LL3NGECYB3RN1GHT FLAG ET VOICI LA FIN DU TEXTE*
+> *CECI EST UN TEXTE EXEMPLE FLAG CH4LL3NGECYB3RN1GHT FLAG ET VOICI LA FIN DU TEXTE*
 >
-Le flag vous permettant de valider sera :
-CYBN{CH4LL3NGECYB3RN1GHT}
+> Le flag vous permettant de valider sera :
+> CYBN{CH4LL3NGECYB3RN1GHT}
 >
-Auteur : Magnitude
+> Auteur : Magnitude
 
 Un fichier est joint. On trouve dedans un texte accentué de manière exagérée.
 
