@@ -14,11 +14,11 @@ Auteur : Magnitude
 
 Un fichier est joint. On trouve dedans un texte accentué de manière exagérée.
 
-![[img/Pasted image 20211212084409.png]]
+![](https://i.imgur.com/rG6GEQe.png)
 
 Après un peu de réflexion, l'idée que chaque accent représente un caractère de code morse germe. On enlève donc tout les caractères qui n'ont pas d'accent ou de point au dessus d'eux (coucou i et j). Cela nous laisse : 
 
-![[img/Pasted image 20211212084732.png]]
+![](https://i.imgur.com/Of1Vha5.png)
 
 On rédige ensuite un script qui transforme les accents neutres en trait, les points en point, les ~ en espaces, et les accents aigus en /.
 

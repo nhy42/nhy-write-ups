@@ -10,7 +10,7 @@ Auteur : Maestran
 Dans cette vidéo, on a un circuit sur Multisim (<3) et on doit retrouver les valeurs des bits de base, en se basant sur les afficheurs hexa.
 
 On se rend compte que dans ce circuit compliqué, il y a finalement deux type de sous circuits : 
-![[img/Pasted image 20211212145653.png]]
+![](https://i.imgur.com/HNrhzuB.png)
 
 Après simplification, on se rend compte que le groupe bleu retourne toujours 1, et le vert toujours 0.
 On peut donc simplifier les entrées du premier compteur en : m6, m5, m4, m3; et celles du second compteur en m2, m1, m0, m7.
@@ -36,7 +36,7 @@ print(output)
 
 Et hop !
 
-![[img/Pasted image 20211212150713.png]]
+![](https://i.imgur.com/MPboKft.png)
 
 flag: `CYBN{1'm_0n_th3oH1ghw4y_to_h3lL}`
 

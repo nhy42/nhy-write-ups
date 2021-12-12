@@ -8,7 +8,7 @@ Auteur : Maestran
 Un challenge franchement super intéressant.
 On possède une clé privée à laquelle il manque quelques parcelles.
 
-![[img/Pasted image 20211212134425.png]]
+![](https://i.imgur.com/uXihazg.png	)
 
 Le but va être de reconstituer une clé privée valide, qui va nous permettre de déchiffrer secret.msg.enc
 
@@ -20,7 +20,7 @@ C'est un article de blog très intérressant sur la manière dont une clé priv�
 
 Pour commencer, on va passer de la version base64 de la clé à de l'hexadécimal. Après conversion, on a :
 
-![[img/Pasted image 20211212135234.png]]
+![](https://i.imgur.com/Vc7hGBS.png)
 
 On a pu constaté que la clé était dans un fichier .pem. Ce type de fichier défini une structure claire pour les clés RSA, structure qui est la suivante :
 
@@ -40,16 +40,16 @@ RSAPrivateKey ::= SEQUENCE {
 ```
 
 On peut lire dans l'article de blog : 
-![[img/Pasted image 20211212140054.png]]
+![](https://i.imgur.com/tu5fkIE.png)
 
 Les données sont donc séparées `02 82` et une longueur pour les données.
 Recherchons donc ces séparateurs :
 
-![[img/Pasted image 20211212140606.png]]
+![](https://i.imgur.com/9GkuFWX.png)
 
 En lisant les deux bytes qui suivent ces séparateurs, on peut donc savoir la longueur des données, ce qui donne ceci.
 
-![[img/Pasted image 20211212143004.png]]
+![](https://i.imgur.com/K0vlxAE.png)
 
 En se référant à la structure du fichier PEM, on a donc :
 - N en vert
@@ -142,7 +142,7 @@ hc4FoVX36+0lvoLwRJBEWhALFKHCaYQCqCPHSS5EqOqcnN8uJMft7Iap0SA=
 
 On peut ensuite déchiffrer le message en utilisant cette clé :
 
-![[img/Pasted image 20211212143940.png]]
+![](https://i.imgur.com/MT8nYkw.png)
 
 flag: `CYBN{P4rt14l_K3y_4r3_3Z_T0_D1sc0v3r}`
 

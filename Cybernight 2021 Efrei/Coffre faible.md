@@ -109,7 +109,7 @@ for(var i_ = 0; i_ <= 9; i_++) {
 ```
 
 En sortie, on peut trouver dans la console notre flag :
-![[img/Pasted image 20211212083637.png]]
+![](https://i.imgur.com/CtZWLPF.png)
 flag: `CYBN{P3dr0_alW4yS_lO0s3s_h1s_P4ssW0rDz_h4ha}`
 
 nhy.

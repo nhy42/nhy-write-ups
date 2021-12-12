@@ -34,7 +34,7 @@ with open("outpou.png", "wb") as f:
 ```
 
 On récupère une image, qui contient le flag
-![[img/outpou.png]]
+![](https://i.imgur.com/jn1EBNq.png)
 
 flag: `CYBN{3uClId3_Le_BoSs_D3s_N0mbR3s}`
 

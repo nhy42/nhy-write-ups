@@ -50,7 +50,7 @@ for i in range(400):
 
 Ce qui donne un truc moche du style :
 
-![[img/Pasted image 20211212102641.png]]
+![](https://i.imgur.com/vKr31fT.png)
 
 Cependant, on peut voir que seules certaines lignes semblent logique, car elles n'ont que des caractères qu'on utilise pour écrire un texte normal. C'est le cas de la ligne 201, et aucune autre, la 202 ayant des caractères non-imprimables, et la 200 ayant trop (beaucoup trop) de point d'exclamation.
 
@@ -81,7 +81,8 @@ print(finalString)
 ```
 
 Finalement, après cela, on obtient:
-![[img/Pasted image 20211212103313.png]]
+
+![](https://i.imgur.com/mCDJbt1.png)
 
 Et ce très cher
 flag: `CYBN{L3_Ch1ffr3_V1g3nèr3T3xt_35t_⚰_3n_1863}`
