@@ -19,13 +19,13 @@ Finalement, on a juste à passer le bit de droite (m7) tout à gauche.
 
 On va donc regarder la vidéo et relever les valeurs des compteurs hexa.
 
-`86 B2 84 9C F6 62 4E DA BE 60 DC BE E8 D0 66 DE 90 62 CE D0 EE 68 F2 BE E8 DE BE D0 66 D8 98 FA`
+`86 B2 84 9C F6 62 4E DA BE 60 DC BE E8 D0 66 BE 90 62 CE D0 EE 68 F2 BE E8 DE BE D0 66 D8 98 FA`
 
 Puis rédiger un script qui effectue le déplacement de bit.
 
 ```py
 output = ""  
-data = "86 B2 84 9C F6 62 4E DA BE 60 DC BE E8 D0 66 DE 90 62 CE D0 EE 68 F2 BE E8 DE BE D0 66 D8 98 FA"
+data = "86 B2 84 9C F6 62 4E DA BE 60 DC BE E8 D0 66 BE 90 62 CE D0 EE 68 F2 BE E8 DE BE D0 66 D8 98 FA"
 data = data.split(" ")
 for e in data:  
     lebyte = '{0:08b}'.format(int(e, 16))  # on le transforme en 8 bits
@@ -36,8 +36,7 @@ print(output)
 
 Et hop !
 
-![](https://i.imgur.com/MPboKft.png)
+flag: `CYBN{1'm_0n_th3_H1ghw4y_to_h3lL}`
 
-flag: `CYBN{1'm_0n_th3oH1ghw4y_to_h3lL}`
 
 nhy.
