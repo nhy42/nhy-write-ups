@@ -60,7 +60,7 @@ if __name__ == "__main__":
 ```
 
 On obtient un fichier finissant ainsi :
-![[Pasted image 20250126223644.png]]
+![image](_attachements/Pasted image 20250126223644.png)
 
 On voit que ce sont des entêtes de fichier zip, donc on est sur la bonne voie, mais il semble manquer des données.
 
@@ -85,12 +85,12 @@ par ceci
 
 Le fichier obtenu ressemble ensuite beaucoup plus à un fichier zip, avec de bon entêtes dès le début du fichier : 
 
-![[Pasted image 20250126224252.png]]
+![image](_attachements/Pasted image 20250126224252.png)
 
 Ceci étant bien plus cohérent, on ouvre le zip avec 7-zip.
-![[Pasted image 20250126224403.png]]
+![image](_attachements/Pasted image 20250126224403.png)
 On ouvre ensuite le ficher flag.txt
-![[Pasted image 20250126224414.png]]
+![image](_attachements/Pasted image 20250126224414.png)
 
 **Flag : HACKDAY{s73@M_$7@tion_4CcE5S}**
 

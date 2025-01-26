@@ -20,12 +20,12 @@ Si le sanitize fail, le profil est donc quand même sauvegardé.
 
 On va donc se créer un profil en essayant de partout de faire des injections, voir ce qui passe.
 
-![[Pasted image 20250126214535.png]]
+![image](_attachements/Pasted image 20250126214535.png)
 
 Après la création de ce profil, qui va "échouer", on peut quand même aller à l'URL du profil pour le consulter, puisqu'il a été sauvegardé.
 
 On voit sur cette URL que le champ Name n'est pas sanitized, on va donc pouvoir mettre une balise script à l'intérieur afin de récupérer les cookies des utilisateurs qui consultent ce profil.
-![[Pasted image 20250126214959.png]]
+![image](_attachements/Pasted image 20250126214959.png)
 
 On utilise https://webhook.site/ pour se créer un point de webhook pour pouvoir récupérer les cookies.
 
@@ -36,10 +36,10 @@ On créé le script suivant :
 ...qu'on rentre dans le champ name
 
 Il faut ensuite que l'admin vienne voir notre page. Pour cela, comme indiqué sur la page d'accueil, il nous suffit de créer un article.
-![[Pasted image 20250126215824.png]]
+![image](_attachements/Pasted image 20250126215824.png)
 
 Après avoir créé l'article, on voit dans notre webhook qu'on a reçu une requête
-![[Pasted image 20250126220031.png]]
+![image](_attachements/Pasted image 20250126220031.png)
 
 **Flag : HACKDAY{0rd3R_M4tteRs_In_Ur_C0d3!!!!}**
 
