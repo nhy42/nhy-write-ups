@@ -2,7 +2,7 @@
 
 ![logo hackday](hackday-logo-2025.png)
 
-![scoreboard](scoreboard.png)
+![team](team.png)
 
 Liste des writeups :
 
