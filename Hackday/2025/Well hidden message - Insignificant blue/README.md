@@ -19,6 +19,7 @@ Après avoir regardé rapidement les deux, le Chiffre de Thritème semble beauco
 ## Application
 
 Notre fichier `secret.txt` contient les données suivantes 
+
 ![image](_attachements/Pasted_image_20250126225347.png)
 
 On va donc créer un script python pour appliquer le chiffre de Thritème dessus. Seul bémol, on ne connais pas le décalage à utiliser, on va donc tous les tenter jusqu'à trouver le mot HACKDAY dans le clair obtenu.
