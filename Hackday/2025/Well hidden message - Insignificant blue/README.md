@@ -19,7 +19,7 @@ Après avoir regardé rapidement les deux, le Chiffre de Thritème semble beauco
 ## Application
 
 Notre fichier `secret.txt` contient les données suivantes 
-![image](_attachements/Pasted image 20250126225347.png)
+![image](_attachements/Pasted_image_20250126225347.png)
 
 On va donc créer un script python pour appliquer le chiffre de Thritème dessus. Seul bémol, on ne connais pas le décalage à utiliser, on va donc tous les tenter jusqu'à trouver le mot HACKDAY dans le clair obtenu.
 
@@ -40,7 +40,7 @@ for i in range(256):
 
 Après exécution, on obtient ceci :
 
-![image](_attachements/Pasted image 20250126225940.png)
+![image](_attachements/Pasted_image_20250126225940.png)
 
 *Je ne sais à ce jour pas pourquoi le reste du message est corrumpu, cela semblait être du latin tout ce qu'il y a de plus classique. Sûrement un problème de charset.*
 
