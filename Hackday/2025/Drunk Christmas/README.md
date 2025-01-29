@@ -55,7 +55,7 @@ Après cela, on va donc essayer d'envoyer un bloc de 256 `a`, 256 `b` , puis 256
 
 A l'offset `0x000` et `0x200`, on peut voir les deux blocs de `a`, et à l'offset `0x100`, notre bloc de `b`
 
-Après cela, on peut regarder si, au sein d'un bloc, les caractères ont une influence sur ceux du bloc, come avec la diffusion en AES. (étant donné que ce chiffrement semble être un stream, *(on a vu des tailles de fichiers qui collent exactement au fichier envoyé, donc pas de padding pour compléter un bloc)*, il y a peu de chances qu'il y ait une diffusion, mais vérifions quand même)
+Après cela, on peut regarder si, au sein d'un bloc, les caractères ont une influence sur ceux du bloc, comme avec la diffusion en AES. (étant donné que ce chiffrement semble être un stream, *(on a vu des tailles de fichiers qui collent exactement au fichier envoyé, donc pas de padding pour compléter un bloc)*, il y a peu de chances qu'il y ait une diffusion, mais vérifions quand même)
 
 On envoie : 128 `a`, 128 `b`, 256 `b`, 256 `a` :
 
@@ -72,7 +72,7 @@ On essaie donc. La réponse :
 Cela fonctionne.
 Pour résumer :
 - La méthode de chiffrement chiffre par blocs de 256 caractères.
-- Un même caractère à une même position au **sein d'un bloc de 256 bytes** aura la même valeur chiffrée
+- Un même caractère à une même position **au sein d'un bloc de 256 bytes** aura la même valeur chiffrée
 - Les blocs sont indépendants
 
 Ayant toutes ces infos, on va pouvoir récupérer le flag.
